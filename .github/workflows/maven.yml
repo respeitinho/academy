@@ -57,7 +57,7 @@ jobs:
           password: ${{ secrets.TOKEN }}
       - uses: ./.github/actions/docker_push
         with:
-          docker_image: ${{env.docker_image}}:${{env.docker_tag}}
+          docker_image: ${{env.image_name}}:${{env.tag_name}}
           docker_username: ${{ secrets.USERNAME }}
 
 
