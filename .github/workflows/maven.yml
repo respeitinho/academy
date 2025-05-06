@@ -9,11 +9,23 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'List of environments available'
+        required: true
+        default: Test
+        type: choice
+        options:
+          - Test
+          - Prod
+      tag:
+        description: 'Image tag name'
+        required: false
 
 
 env:
@@ -78,6 +90,7 @@ jobs:
 
   check_docker_images:
     runs-on: ubuntu-latest
+    environment: ${{inputs.environment}}
     needs: build
     steps:
       - uses: actions/checkout@v4
