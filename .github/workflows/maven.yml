@@ -17,6 +17,7 @@ on:
 env:
   tag_name:  'academy'
   image_name: 'docker-image'
+  artifact_name: ''
 
 jobs:
   build:
