@@ -58,6 +58,6 @@ jobs:
         with:
           name: ${{env.artifact_name}}
       - name: Load docker image
-        run: docker load -i ${{env.artifact_name}}.tar
+        run: docker load -i ${{env.image_name}}.tar
       - name: List all the docker images
         run: docker image ls
