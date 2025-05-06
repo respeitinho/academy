@@ -49,6 +49,18 @@ jobs:
         with:
           name: ${{env.artifact_name}}
           path: ${{env.image_name}}.tar
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.TOKEN }}
+      - uses: ./.github/actions/docker_push
+        with:
+          docker_image: ${{env.docker_image}}:${{env.docker_tag}}
+          docker_username: ${{ secrets.USERNAME }}
+
+
   check_docker_images:
     runs-on: ubuntu-latest
     needs: build
