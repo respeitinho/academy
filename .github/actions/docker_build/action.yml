@@ -24,6 +24,6 @@ runs:
         export TAG="${{ inputs.replace_with_input_name }}"
         fi
         
-        docker build . --file ${{inputs.path_dockerfile}} --tag ${{TAG}}:$(date +%s)
+        docker build . --file ${{inputs.path_dockerfile}} --tag ${{env.TAG}}:$(date +%s)
         docker image ls
       shell: bash
