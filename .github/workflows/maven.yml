@@ -38,6 +38,7 @@ jobs:
 
   check_docker_images:
     runs-on: ubuntu-latest
+    needs: build
     steps:
     - name: Docker image ls
       run: docker image ls
