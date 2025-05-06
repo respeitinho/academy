@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="zulu-21 (WSL)" project-jdk-type="JavaSDK" />
+  <component name="SettingPersistent">
+    <option name="settingEntity">
+      <SettingEntity>
+        <option name="channelId" value="aTlg_NQXXjNf9Vt7TWVTlsBeha2HZyrXyBIPUwWo3G2hfYSB7qZMod3QZXf1dFyfou2FOGmSpXoXEwsAWLnnK5SToqe8Ls33We1hLIkxgcowvzIkiskAexNrOaE6E-gfDu8ItycA" />
+        <option name="didAccessToken" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoibXlEM3VOWGU4aldST1A0aXBtOE5PUVdROWFTRlB3YllhVG1OcVRQNnF2SitKeU8wR2Y5a3RySVlQMlUreldEWDJmWWQzZTdHRVZYbEFMWFFRanpIS1JGSkVlVmNqVThOOHVPbTVZZTd5dEE4Tnk5QnduWEY0Uk1FQUs3L0tmRFd4VlRCOUNYTi90L3MweGIwZVFXaEZiYnBINDE1MGZmZGhNSkpxcGxXNG50cGpiOUllYUo2eWZaWTJUWWdBTkdZc1Fmd012aXhsazhPK0JVdHdKeW1hN0Rrd1ltMjhMdERzZHBOZ1p6eGk3bFV1eTFLbWZ4MUlOT2ptaVR1Mm1UM3Z3aVJQWjBoSzRlWlByT0Rza0x0dFE9PSIsImV4cCI6MTc0NzgyMjg5M30.kFSht4jzENYcPdhijRuB2kFz0uEe2ktvUnS2RJTe6lk" />
+        <option name="modelType" value="Deepseek-32" />
+        <option name="uid" value="50032814927de84d26fceb12d4150df84add2ae1867c44ef8d36e50cdd2b3631" />
+      </SettingEntity>
+    </option>
+  </component>
+</project>
