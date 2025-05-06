@@ -41,7 +41,7 @@ jobs:
         image_name: $image_name
 
     - name: Save image to a file
-      run: docker save -o ${{env.image_name}}.tar ${{env.image_name}}:${{env.image_tag}}
+      run: docker save -o ${{env.image_name}}.tar ${{env.image_name}}:${{env.tag_name}}
 
   check_docker_images:
     runs-on: ubuntu-latest
