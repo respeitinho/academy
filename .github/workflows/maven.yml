@@ -32,5 +32,4 @@ jobs:
 
     - name: Docker run
       run: |
-        docker build . --file Dockerfile --tag academy:$(date +%s)
-        docker image ls
+        uses: ./.github/actions/docker_build
