@@ -33,7 +33,7 @@ jobs:
     - name: Docker run
       uses: ./.github/actions/docker_build
       with:
-        image_name: 'DOCKER-IMAGE'
+        image_name: 'docker-image'
         tag_name: 'academy'
 
   check_docker_images:
